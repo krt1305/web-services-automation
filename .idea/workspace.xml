@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33b36684-2f32-440a-a752-d968a106f736" name="Default Changelist" comment="" />
+    <list default="true" id="33b36684-2f32-440a-a752-d968a106f736" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/schemaValidation/SchemaValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/schemaValidation/SchemaValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/responseValidations/hamcrestLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/responseValidations/hamcrestLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/schemaValidation/SchemaValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/schemaValidation/SchemaValidation.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,29 +29,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1072" />
+          <entry key="java" value="2509" />
           <entry key="json" value="13" />
-          <entry key="xml" value="29" />
+          <entry key="xml" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1072" />
+          <entry key="JAVA" value="2509" />
           <entry key="JSON" value="13" />
-          <entry key="XML" value="29" />
+          <entry key="XML" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="3" />
+          <entry key="class" value="5" />
+          <entry key="java" value="6" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="3" />
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="6" />
           <entry key="JSON" value="1" />
         </counts>
       </usages-collector>
@@ -55,13 +62,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+            <state relative-caret-position="303">
+              <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/service/responseValidations/hamcrestLib.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="372">
@@ -73,11 +80,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/service/schemaValidation/SchemaValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="29" column="99" selection-start-line="25" selection-start-column="8" selection-end-line="29" selection-end-column="99" />
+            <state relative-caret-position="80">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1859#1860#0" expanded="true" />
+                <element signature="e#1896#1897#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/base/Base.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,10 +107,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Desktop/json-schema-validator-3.2.0-dist/json-schema-validator-3.2.0.jar!/io/restassured/module/jsv/JsonSchemaValidator.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/base/ExtentManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+            <state relative-caret-position="225">
+              <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,15 +127,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/SchemaValidation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/schemaValidation/SchemaValidation.java" />
         <option value="$PROJECT_DIR$/src/main/java/schema.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/jsonAssertLib/jsonAssertEx.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/responseValidations/hamcrestLib.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/base/reporting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/base/Base.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/base/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/schemaValidation/SchemaValidation.java" />
       </list>
     </option>
   </component>
@@ -127,6 +157,7 @@
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -142,55 +173,7 @@
             <path>
               <item name="web-services-automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-services-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-services-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-services-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-services-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-services-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-services-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-services-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-services-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-services-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonAssertLib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-services-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-services-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="responseValidations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-services-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-services-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="schemaValidation" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-services-automation" type="b2602c69:ProjectViewProjectNode" />
@@ -205,10 +188,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544526941012" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544545776313" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.3873563" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RunDashboard">
@@ -223,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.hamcrestLib">
+  <component name="RunManager" selected="TestNG.SchemaValidation">
     <configuration name="SchemaValidation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="web-services-automation" />
       <extension name="coverage">
@@ -279,9 +262,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SchemaValidation" />
         <item itemvalue="TestNG.hamcrestLib" />
         <item itemvalue="TestNG.jsonAssertEx" />
-        <item itemvalue="TestNG.SchemaValidation" />
       </list>
     </recent_temporary>
   </component>
@@ -299,41 +282,72 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="hamcrestLib - 2018.12.07 at 19h 45m 37s.xml">
-      <configuration name="hamcrestLib" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="hamcrestLib - 2018.12.07 at 19h 45m 38s.xml">
-      <configuration name="hamcrestLib" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="hamcrestLib - 2018.12.07 at 19h 53m 14s.xml">
-      <configuration name="hamcrestLib" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="hamcrestLib - 2018.12.07 at 19h 53m 50s.xml">
-      <configuration name="hamcrestLib" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="hamcrestLib - 2018.12.07 at 19h 55m 39s.xml">
-      <configuration name="hamcrestLib" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="hamcrestLib - 2018.12.07 at 19h 59m 23s.xml">
-      <configuration name="hamcrestLib" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="hamcrestLib - 2018.12.07 at 20h 01m 34s.xml">
-      <configuration name="hamcrestLib" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="hamcrestLib - 2018.12.07 at 20h 03m 40s.xml">
-      <configuration name="hamcrestLib" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="hamcrestLib - 2018.12.07 at 20h 04m 47s.xml">
-      <configuration name="hamcrestLib" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="hamcrestLib - 2018.12.07 at 20h 31m 22s.xml">
       <configuration name="hamcrestLib" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SchemaValidation - 2018.12.11 at 20h 52m 17s.xml">
+      <configuration name="SchemaValidation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SchemaValidation - 2018.12.11 at 20h 54m 27s.xml">
+      <configuration name="SchemaValidation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SchemaValidation - 2018.12.11 at 20h 54m 45s.xml">
+      <configuration name="SchemaValidation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SchemaValidation - 2018.12.11 at 20h 58m 18s.xml">
+      <configuration name="SchemaValidation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SchemaValidation - 2018.12.11 at 20h 59m 27s.xml">
+      <configuration name="SchemaValidation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SchemaValidation - 2018.12.11 at 21h 15m 03s.xml">
+      <configuration name="SchemaValidation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SchemaValidation - 2018.12.11 at 21h 50m 57s.xml">
+      <configuration name="SchemaValidation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SchemaValidation - 2018.12.11 at 21h 53m 41s.xml">
+      <configuration name="SchemaValidation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SchemaValidation - 2018.12.11 at 21h 59m 15s.xml">
+      <configuration name="SchemaValidation" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44819278" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SonarQube" order="8" />
+      <window_info anchor="bottom" id="SonarLint" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,7 +364,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarQube" order="8" />
       <window_info anchor="bottom" id="SonarLint" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -361,10 +375,22 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/service/schemaValidation/SchemaValidation.java</url>
+          <line>24</line>
+          <properties field="extentTest" class="com.service.schemaValidation.SchemaValidation" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/Desktop/json-schema-validator-3.2.0-dist/json-schema-validator-3.2.0.jar!/io/restassured/module/jsv/JsonSchemaValidator.class">
@@ -400,18 +426,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+        <state relative-caret-position="303">
+          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/schemaValidation/SchemaValidation.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/4.0.5/extentreports-4.0.5.jar!/com/aventstack/extentreports/ExtentReports.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="29" column="99" selection-start-line="25" selection-start-column="8" selection-end-line="29" selection-end-column="99" />
+        <state relative-caret-position="105">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/4.0.5/extentreports-4.0.5.jar!/com/aventstack/extentreports/ExtentObservable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1136">
+          <caret line="336" column="19" selection-start-line="336" selection-start-column="19" selection-end-line="336" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#11750#11751#0" expanded="true" />
+            <element signature="e#11816#11817#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="384" column="24" selection-start-line="384" selection-start-column="24" selection-end-line="384" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -421,6 +462,38 @@
           <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/base/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/base/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/schemaValidation/SchemaValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1859#1860#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -481,7 +554,8 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3873563" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
