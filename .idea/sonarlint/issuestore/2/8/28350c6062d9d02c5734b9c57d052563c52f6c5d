@@ -1,0 +1,7 @@
+
+dsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(„±¨‹üÿÿÿÿ8Žœ¦Äø,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óˆô‰8”‹¡Ãø,
+Ysquid:S2696"6Make the enclosing method "static" or remove this set.(„±¨‹üÿÿÿÿ8Žœ¦Äø,
+msquid:UselessImportCheck"=Remove this unused import 'io.restassured.response.Response'.(äŽ¯»ùÿÿÿÿ8Ÿ ¸Äø,
+Ysquid:S2696"6Make the enclosing method "static" or remove this set.(„Ð„¾ýÿÿÿÿ8»‚¥Äø,
+dsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(Þöíòþÿÿÿÿ8¿ªÀÄø,
